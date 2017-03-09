@@ -1,0 +1,32 @@
+@import url("reset.css");
+@import url("header.css");
+@import url("content.css");
+@import url("footer.css");
+.body-wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    background: url("../images/assets/background.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.coral {
+    position: fixed;
+    top: 0;
+    height: 100%;
+    width: 18%;
+    z-index: 3;
+}
+
+.left {
+    left: 0;
+    background: url("../images/assets/left.png");
+}
+
+.right {
+    right: 0;
+    background: url("../images/assets/right.png");
+    background-position: right;
+}

@@ -1,0 +1,14 @@
+<div class="products-container">
+    <h1>Home</h1> {{#each data}}
+    <div class="product"> <img src="{{imgUrl}}">
+        <div class="product-data"> <span class="name">{{name}}</span> <span class="description">{{description}}</span>
+            <div class="product-interaction">
+                <div class="tag-container"> {{#each tags}}
+                    <div class="tag">{{this}} </div> {{/each}} </div>
+                <div class="select-button">
+                    <input type="button" id="select" value="Comprar"> </div>
+                <!--
+    <span class="codigo">{{selected}}</span>
+    --></div>
+        </div>
+    </div> {{/each}} </div>

@@ -1,0 +1,47 @@
+header {
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background: url("../images/assets/header.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 14em;
+}
+
+.logo {
+    width: 550px;
+    height: 87px;
+    background: url("../images/assets/logo.svg");
+    background-repeat: no-repeat;
+}
+
+.logo span {
+    display: none;
+}
+
+nav {
+    display: flex;
+    width: 50%;
+}
+
+li {
+    list-style: none;
+}
+
+ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+header a {
+    text-decoration: none;
+    font-size: 1.5em;
+    color: aliceblue;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 300;
+}
